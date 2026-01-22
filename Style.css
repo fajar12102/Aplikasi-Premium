@@ -1,0 +1,363 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
+    padding-bottom: 50px;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* HEADER */
+header {
+    background: linear-gradient(135deg, #1a1a1a, #333);
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+    border-bottom: 5px solid #e50914;
+}
+
+header h1 {
+    font-size: 2.8rem;
+    margin-bottom: 10px;
+}
+
+header h1 i {
+    color: #ffcc00;
+    margin-right: 15px;
+}
+
+header p {
+    font-size: 1.2rem;
+    opacity: 0.9;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* HERO */
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.9)), url('https://images.unsplash.com/photo-1518709268805-4e9042af2176?auto=format&fit=crop&w=1600') center/cover;
+    color: white;
+    text-align: center;
+    padding: 80px 0;
+    margin-bottom: 40px;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.hero p {
+    font-size: 1.3rem;
+    margin-bottom: 30px;
+    color: #ddd;
+}
+
+.btn {
+    display: inline-block;
+    background: #e50914;
+    color: white;
+    padding: 18px 35px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+    transition: 0.3s;
+    box-shadow: 0 5px 15px rgba(229, 9, 20, 0.4);
+}
+
+.btn:hover {
+    background: #ff0a16;
+    transform: translateY(-5px);
+}
+
+/* SERVICES */
+.services {
+    padding: 60px 0;
+    background: white;
+}
+
+.services h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+    color: #222;
+}
+
+.services h2 i {
+    color: #ffcc00;
+    margin-right: 15px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 30px;
+}
+
+.card {
+    background: #fff;
+    border-radius: 15px;
+    padding: 25px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    text-align: left;
+    transition: transform 0.3s, box-shadow 0.3s;
+    border: 1px solid #eee;
+    position: relative;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 40px rgba(0,0,0,0.12);
+}
+
+.logo {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.spotify { color: #1db954; }
+.capcut { color: #00c2ff; }
+.canva { color: #00c4cc; }
+.disney { color: #0063e5; }
+.netflix { color: #e50914; }
+.info { color: #9b59b6; }
+
+.card h3 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #222;
+}
+
+.card ul {
+    list-style: none;
+    margin: 20px 0;
+}
+
+.card li {
+    padding: 10px 0;
+    border-bottom: 1px dashed #eee;
+    display: flex;
+    align-items: flex-start;
+}
+
+.card li i {
+    color: #27ae60;
+    margin-right: 10px;
+    margin-top: 5px;
+    flex-shrink: 0;
+}
+
+.note {
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 20px 0;
+    font-size: 0.95rem;
+    color: #555;
+    border-left: 4px solid #3498db;
+}
+
+.note i {
+    color: #3498db;
+    margin-right: 8px;
+}
+
+.btn-beli {
+    display: block;
+    background: #25d366;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    transition: 0.3s;
+    font-size: 1.1rem;
+}
+
+.btn-beli:hover {
+    background: #1da851;
+    transform: scale(1.03);
+}
+
+.btn-beli i {
+    margin-right: 10px;
+}
+
+.wa-btn {
+    background: #075e54;
+}
+
+.wa-btn:hover {
+    background: #054d44;
+}
+
+.info-card {
+    background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+    border: 2px dashed #6c757d;
+}
+
+.order-steps {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+
+.order-steps li {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.contact-info {
+    margin-top: 25px;
+    padding-top: 20px;
+    border-top: 1px solid #ddd;
+}
+
+.contact-info p {
+    margin: 10px 0;
+    color: #555;
+}
+
+.contact-info i {
+    color: #3498db;
+    margin-right: 10px;
+}
+
+/* GARANSI */
+.garansi {
+    background: #f1f8ff;
+    padding: 70px 0;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.garansi h2 {
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+    color: #222;
+}
+
+.garansi h2 i {
+    color: #ffcc00;
+    margin-right: 15px;
+}
+
+.garansi-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.garansi-item {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.06);
+    transition: transform 0.3s;
+}
+
+.garansi-item:hover {
+    transform: translateY(-8px);
+}
+
+.garansi-item i {
+    font-size: 3rem;
+    color: #3498db;
+    margin-bottom: 20px;
+}
+
+.garansi-item h4 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #222;
+}
+
+.garansi-item p {
+    color: #666;
+    font-size: 1rem;
+}
+
+/* FOOTER */
+footer {
+    background: #1a1a1a;
+    color: #aaa;
+    text-align: center;
+    padding: 40px 0;
+    margin-top: 60px;
+    border-top: 5px solid #e50914;
+}
+
+footer p {
+    margin: 10px 0;
+    font-size: 1rem;
+}
+
+footer strong {
+    color: #fff;
+}
+
+.footer-note {
+    font-size: 0.9rem;
+    color: #888;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.footer-contact {
+    margin-top: 25px;
+}
+
+.footer-contact a {
+    color: #1db954;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer-contact a:hover {
+    text-decoration: underline;
+}
+
+.footer-contact i {
+    margin-right: 8px;
+    color: #aaa;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2.2rem;
+    }
+    .hero h2 {
+        font-size: 2rem;
+    }
+    .services h2, .garansi h2 {
+        font-size: 2rem;
+    }
+    .grid {
+        grid-template-columns: 1fr;
+    }
+    .garansi-grid {
+        grid-template-columns: 1fr;
+    }
+    .btn {
+        padding: 15px 25px;
+        font-size: 1rem;
+    }
+}
